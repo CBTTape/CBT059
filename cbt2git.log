@@ -1,0 +1,13 @@
+2023-08-06 00:38:54.605063 - Initialized conversion of CBT059
+2023-08-06 00:38:54.673638 - Received CBT.V505.FILE059.PDS from FILE059.XMI 
+2023-08-06 00:38:54.676032 - Found $$$#DATE.txt (text/plain) in CBT.V505.FILE059.PDS, moved to PDS/$$$#DATE
+2023-08-06 00:38:54.677035 - Found $DOC.txt (text/plain) in CBT.V505.FILE059.PDS, moved to PDS/$DOC
+2023-08-06 00:38:54.677891 - Found @FILE059.txt (text/plain) in CBT.V505.FILE059.PDS, moved to PDS/@FILE059
+2023-08-06 00:38:54.678852 - Found ASMJCL.jcl (text/plain) in CBT.V505.FILE059.PDS, moved to PDS/ASMJCL
+2023-08-06 00:38:54.679792 - Found IDPANEL.txt (text/plain) in CBT.V505.FILE059.PDS, moved to PDS/IDPANEL
+2023-08-06 00:38:54.680669 - Found IPL.txt (text/plain) in CBT.V505.FILE059.PDS, moved to PDS/IPL
+2023-08-06 00:38:54.681508 - Found IPLDATA.txt (text/plain) in CBT.V505.FILE059.PDS, moved to PDS/IPLDATA
+2023-08-06 00:38:54.682404 - Found IPLINFO.txt (text/plain) in CBT.V505.FILE059.PDS, moved to PDS/IPLINFO
+2023-08-06 00:38:54.683287 - Found IPLPUT.txt (text/plain) in CBT.V505.FILE059.PDS, moved to PDS/IPLPUT
+2023-08-06 00:38:54.684181 - Found JULSUB.txt (text/plain) in CBT.V505.FILE059.PDS, moved to PDS/JULSUB
+2023-08-06 00:38:54.685067 - Found SMCASID.rexx (text/plain) in CBT.V505.FILE059.PDS, moved to PDS/SMCASID
