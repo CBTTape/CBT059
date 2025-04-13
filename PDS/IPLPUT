@@ -1,0 +1,13 @@
+PROC 0
+/*********************************************************************/
+/*                                                                   */
+/* LIB: xxxxxxxx.clist(IPLPUT)                                       */
+/* DOC: THIS CLIST WRITES IPL RELATED INFORMATION TO THE TERMINAL.   */
+/* CHG: LOCATE LOWERCASE AND CHANGE WITH AN APPROPRIATE VALUE.       */
+/*                                                                   */
+/*********************************************************************/
+    CONTROL NOFLUSH NOMSG MAIN
+    SET &IPLDAY = &STR( )
+    CALL 'SYS1.CBT.LINKLIB(IPLDATA)'    /* change library */
+    WRITE &NRSTR(&IPLTXT)
+    EXIT CODE(0)

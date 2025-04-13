@@ -1,0 +1,32 @@
+# CBT059
+Converted to GitHub via [cbt2git](https://github.com/wizardofzos/cbt2git)
+
+This is still a work in progress. GitHub repos will be deleted and created during this period...
+
+```
+//***FILE 059 is a combination of CLISTs and Assembler programs     *   FILE 059
+//*           to display last IPL information and today's date      *   FILE 059
+//*           on a handy ISPF panel.  This file is from the late    *   FILE 059
+//*           Ken Tomiak of the Dept of Information Technology      *   FILE 059
+//*           and Telecommunications (DOITT) of New York City.      *   FILE 059
+//*                                                                 *   FILE 059
+//*           There is a small addition from Sam Golob.  This is    *   FILE 059
+//*           a panel called "IDPANEL" with a REXX exec called      *   FILE 059
+//*           "SMCASID" (written by the late Tony Forte).  This     *   FILE 059
+//*           panel is meant to be executed via an entry in your    *   FILE 059
+//*           ISPF command table ISPCMDS.  This panel shows useful  *   FILE 059
+//*           information about your current ISPF session that is   *   FILE 059
+//*           invoking it.  The REXX exec "SMCASID" obtains your    *   FILE 059
+//*           system id and puts it into an ISPF variable in the    *   FILE 059
+//*           shared pool.  This is good if you have multiple       *   FILE 059
+//*           systems like we had.  If you have only one system,    *   FILE 059
+//*           you can change IDPANEL to delete the references to    *   FILE 059
+//*           &SYSID and the command SMCASID which obtains it.      *   FILE 059
+//*           Then you don't need the REXX exec.  If you have       *   FILE 059
+//*           TSO/E 1.4 or below (without REXX) you have to do      *   FILE 059
+//*           this anyway, or use an Assembler program to get the   *   FILE 059
+//*           system id into a variable instead.                    *   FILE 059
+//*                                                                 *   FILE 059
+//*           support email:  Sam Golob   sbgolob@cbttape.org       *   FILE 059
+//*                                                                 *   FILE 059
+```
